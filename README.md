@@ -1,3 +1,24 @@
+# 📊Diagramme De Classe :
+![WhatsApp Image 2026-02-24 at 02 18 06](https://github.com/user-attachments/assets/2b379f62-4a0f-47c5-b12c-9bfa081d9b38)
+## Analyse des Relations et Annotations Utilisés :
+#### 1️-Utilisateur ↔ Reservation :
+   Relation : OneToMany / ManyToOne
+   
+Un utilisateur peut avoir plusieurs réservations et
+Une réservation appartient à un seul utilisateur.
+<br></br>
+#### 2-Reservation ↔ Salle :
+Relation : ManyToOne / OneToMany
+<br></br>
+Une réservation concerne une seule salle et
+Une salle peut avoir plusieurs réservations.
+<br></br>
+#### 3-Salle ↔ Equipement :
+Relation : ManyToMany
+<br></br>
+Une salle peut contenir plusieurs équipements et
+Un équipement peut être présent dans plusieurs salles.
+<br></br>
 # Compilation et Exécution Du Projet :
 <br></br>
 <img width="963" height="495" alt="Capture d&#39;écran 2026-02-23 125713 - Copie" src="https://github.com/user-attachments/assets/f6900dab-4665-4592-93bc-3dfb7ebe8070" />
